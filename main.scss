@@ -1,0 +1,304 @@
+@import "_globals.scss";
+
+/* QUESTION CLASSES */
+
+body.q1
+{
+	.incorrect
+	{
+		text-decoration: line-through;
+	}
+}
+
+body.q2
+{
+	button.next
+	{
+		font-weight: bold
+	}
+
+	.correct
+	{
+		font-weight: bold;
+	}
+}
+
+body.q3
+{
+	button
+	{
+		width: 100%;
+	}
+}
+
+body.q4
+{
+	button.answer
+	{
+		text-align: left;
+	}
+}
+
+body.q5
+{
+	.quiz,
+	.results-screen
+	{
+		max-width: 450px;
+	}
+}
+
+body.q6
+{
+	.progress-bar
+	{
+		display: flex;
+	}
+
+	button
+	{
+		display: block;
+	}
+}
+
+body.q7
+{
+	.progress-bar
+	{
+    	justify-content: space-between;
+	}
+}
+
+body.q8
+{
+	.quiz,
+	button.next
+	{
+		margin: 0 auto;
+	}
+}
+
+body.q9
+{
+	.progress-bar
+	{
+		padding: 10px 0;
+	}
+
+	.body,
+	.answer
+	{
+		padding: 20px 0;
+	}
+
+	button.next
+	{
+		padding: 10px 10px 12px;
+	}
+}
+
+body.q10
+{
+	button.answer
+	{
+		background-color: $white;
+	}
+	
+	button.next
+	{
+		background-color: $cyan500;
+	}
+
+	button.next:hover,
+	button.next:active,
+	button.next:focus
+	{
+		background-color: $cyan300;
+	}
+}
+
+body.q11
+{
+	button
+	{
+		border: 0;
+	}
+
+	.progress-bar,
+	button.answer
+	{
+		border-bottom: 1px solid $cyan500;
+	}
+
+	button.answer:first-of-type
+	{
+		border-top: 1px solid $cyan500;
+	}
+
+	button.answer:last-of-type
+	{
+		border-bottom: 0;
+	}
+}
+
+body.q12
+{
+	button:hover,
+	button:active,
+	button:focus
+	{
+		outline: none;
+	}
+}
+
+body.q13
+{
+	color: $grey800;
+
+	.progress-bar
+	{
+		color: $cyan500;
+	}
+
+	.answer
+	{
+		color: $grey800;
+	}
+
+	button.correct
+	{
+		color: $lightgreen500;
+	}
+
+	button.incorrect
+	{
+		color: $red500;
+	}
+
+	button.next
+	{
+		color: $white;
+	}
+}
+
+body.q14
+{
+	font-size: 14px;
+
+	.progress-bar
+	{
+		font-size: 12px;
+	}
+
+	.heading
+	{
+		font-size: 24px;
+	}
+
+	button
+	{
+		font-size: 14px;
+	}
+}
+
+body.q15
+{
+	font-family: $body-font;
+
+	button
+	{
+		font-family: $code-font;
+	}
+}
+
+body.q16
+{
+	button.next
+	{
+		border-radius: 2px;
+	}
+}
+
+/* FUNCTIONAL CLASSES */
+
+body
+{
+	margin: 0;
+	font-family: $body-font;
+	font-size: 14px;
+	color: $grey800;
+}
+
+.main
+{
+	margin: 0 auto;
+	max-width: 450px;
+
+	.progress-bar
+	{
+		display: none;
+	}
+
+	.heading
+	{
+		font-size: 24px;
+	}
+
+	.description
+	{
+		line-height: 1.4em;
+	}
+
+	.disclaimer
+	{
+		font-size: 11px;
+		font-style: italic;
+		line-height: 1.2em;
+	}
+
+	button.primary
+	{
+		display: block;
+		min-width: 25%;
+		margin: 25px auto;
+		border: 0;
+		border-radius: 2px;
+		padding: 10px 10px 12px;
+		font-family: $code-font;
+		font-size: 14px;
+		font-weight: bold;
+		background-color: $cyan500;
+		color: $white;
+	}
+
+	button.primary:active,
+	button.primary:hover,
+	button.primary:focus
+	{
+		background-color: $cyan300;
+		outline: none;
+	}
+}
+
+body.results
+{
+	.progress-bar,
+	.body-container
+	{
+		display: none;
+	}
+}
+
+img.gif
+{
+	width: 450px;
+}
+
+.q0
+{
+	margin: auto;
+	background-color: transparent;
+	font-family: auto;
+	font-size: medium;
+	color: initial;
+}
