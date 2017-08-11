@@ -1,0 +1,146 @@
+/* QUESTION CLASSES */
+body.q1 .incorrect {
+  text-decoration: line-through; }
+
+body.q2 button.next {
+  font-weight: bold; }
+body.q2 .correct {
+  font-weight: bold; }
+
+body.q3 button {
+  width: 100%; }
+
+body.q4 button.answer {
+  text-align: left; }
+
+body.q5 .quiz,
+body.q5 .results-screen {
+  max-width: 450px; }
+
+body.q6 .progress-bar {
+  display: flex; }
+body.q6 button {
+  display: block; }
+
+body.q7 .progress-bar {
+  justify-content: space-between; }
+
+body.q8 .quiz,
+body.q8 button.next {
+  margin: 0 auto; }
+
+body.q9 .progress-bar {
+  padding: 10px 0; }
+body.q9 .body,
+body.q9 .answer {
+  padding: 20px 0; }
+body.q9 button.next {
+  padding: 10px 10px 12px; }
+
+body.q10 button.answer {
+  background-color: #fff; }
+body.q10 button.next {
+  background-color: #00BCD4; }
+body.q10 button.next:hover,
+body.q10 button.next:active,
+body.q10 button.next:focus {
+  background-color: #4DD0E1; }
+
+body.q11 button {
+  border: 0; }
+body.q11 .progress-bar,
+body.q11 button.answer {
+  border-bottom: 1px solid #00BCD4; }
+body.q11 button.answer:first-of-type {
+  border-top: 1px solid #00BCD4; }
+body.q11 button.answer:last-of-type {
+  border-bottom: 0; }
+
+body.q12 button:hover,
+body.q12 button:active,
+body.q12 button:focus {
+  outline: none; }
+
+body.q13 {
+  color: #424242; }
+  body.q13 .progress-bar {
+    color: #00BCD4; }
+  body.q13 .answer {
+    color: #424242; }
+  body.q13 button.correct {
+    color: #8BC34A; }
+  body.q13 button.incorrect {
+    color: #F44336; }
+  body.q13 button.next {
+    color: #fff; }
+
+body.q14 {
+  font-size: 14px; }
+  body.q14 .progress-bar {
+    font-size: 12px; }
+  body.q14 .heading {
+    font-size: 24px; }
+  body.q14 button {
+    font-size: 14px; }
+
+body.q15 {
+  font-family: "Roboto", sans-serif; }
+  body.q15 button {
+    font-family: "Roboto Mono", monospace; }
+
+body.q16 button.next {
+  border-radius: 2px; }
+
+/* FUNCTIONAL CLASSES */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #424242; }
+
+.main {
+  margin: 0 auto;
+  max-width: 450px; }
+  .main .progress-bar {
+    display: none; }
+  .main .heading {
+    font-size: 24px; }
+  .main .description {
+    line-height: 1.4em; }
+  .main .disclaimer {
+    font-size: 11px;
+    font-style: italic;
+    line-height: 1.2em; }
+  .main button.primary {
+    display: block;
+    min-width: 25%;
+    margin: 25px auto;
+    border: 0;
+    border-radius: 2px;
+    padding: 10px 10px 12px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #00BCD4;
+    color: #fff; }
+  .main button.primary:active,
+  .main button.primary:hover,
+  .main button.primary:focus {
+    background-color: #4DD0E1;
+    outline: none; }
+
+body.results .progress-bar,
+body.results .body-container {
+  display: none; }
+
+img.gif {
+  width: 450px; }
+
+.q0 {
+  margin: auto;
+  background-color: transparent;
+  font-family: auto;
+  font-size: medium;
+  color: initial; }
+
+/*# sourceMappingURL=main.css.map */
